@@ -58,3 +58,8 @@ The project was validated using an **ESP32-S module** paired with the **Serial B
 <br><br>
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/69af2343-0a15-4d39-b934-8a162744d97c" />
 <br><br>
+
+
+## Conclusion
+
+This project successfully demonstrates basic wireless serial communication using an ESP32-S module configured under Bluetooth Classic (SPP). By bridging the hardware UART interface (`Serial`) with the Bluetooth protocol stack (`SerialBT`), the system establishes a reliable, bi-directional link with external terminal applications. This setup serves as a foundational template for telemetry streaming, remote parameter configuration, and embedded system diagnostics.
