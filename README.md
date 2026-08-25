@@ -1,4 +1,4 @@
-# ESP32 Bluetooth Classic Serial Pass-Through via Mobile App
+ # ESP32 Bluetooth Classic Serial Pass-Through via Mobile App
 A simple ESP32 demonstration project that creates a bi-directional serial bridge between the USB Serial Monitor and a smartphone using the Serial Bluetooth Terminal app over Bluetooth Classic (Serial Port Profile / SPP).
 
 ## Overview
@@ -46,15 +46,15 @@ loop(): Continuously polls Serial.available() and SerialBT.available() to relay 
 The project was validated using an **ESP32-S module** paired with the **Serial Bluetooth Terminal** app (Android) over **Bluetooth Classic (SPP)**.
 
 ### 1. ESP32 Boot Log (USB Serial Monitor @ 115200 baud)
-<br><br><img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/53bbfe27-a5d6-441a-8d74-421503d46d03" />
+<br><br><img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/53bbfe27-a5d6-441a-8d74-421503d46d03" />
 <br><br>
 ### 2. Smartphone Terminal Log (Serial Bluetooth Terminal)
 <br><br>
-<img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/46d6cb2f-725c-4719-af5b-451822b4cdd1" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/46d6cb2f-725c-4719-af5b-451822b4cdd1" />
 <br><br>
-<img width="712" height="712" alt="image" src="https://github.com/user-attachments/assets/0cdf5af4-64a2-49eb-b94b-0c807947bd9f" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/0cdf5af4-64a2-49eb-b94b-0c807947bd9f" />
 <br><br>
 ### 3. App Connection & Terminal Interface
 <br><br>
-<img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/69af2343-0a15-4d39-b934-8a162744d97c" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/69af2343-0a15-4d39-b934-8a162744d97c" />
 <br><br>
